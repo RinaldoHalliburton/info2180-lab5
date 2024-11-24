@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", startLoadHTML);
 
 function startLoadHTML() {
   let lookup = document.getElementById("lookup");
+  let city = document.getElementById("lookup_city");
   let result = document.getElementById("result");
   let httprequest = new XMLHttpRequest();
 

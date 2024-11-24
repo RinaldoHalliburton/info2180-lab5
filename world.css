@@ -74,6 +74,33 @@
     padding: 50px;
   }
   
+
+/*table, th,td{
+  
+    text-align: center;  
+    border-bottom: 1px solid;
+    border-color: rgb(99, 0, 112);
+    background-color: rgb(187, 156, 211);
+  }*/
+
+  table {
+    width: 100%; /* Makes the table span the full width of the container */
+    border-collapse: collapse; /* Ensures borders between cells merge together */
+    margin: 20px 0; /* Adds some space above and below the table */
+}
+
+th, td {
+    text-align: center; /* Centers the text inside table header and data cells */
+    padding: 12px; /* Adds padding inside cells for better readability */
+    border-bottom: 1px solid rgb(255, 0, 144); /* Blue bottom border for each cell */
+    background-color: rgb(237, 157, 247); /* Light background color */
+}
+
+th {
+    font-weight: bold; /* Makes the table headers bold */
+    background-color: rgb(233, 90, 236); /* Slightly different background for the header */
+}
+
   /* Style the left column */
   .left {
     grid-area: left;
